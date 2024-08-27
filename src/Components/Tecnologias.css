@@ -1,0 +1,14 @@
+
+h2{
+    font-size: 2rem;
+    color: #edf2f4;
+    margin: 1rem;
+    font-weight: 400;
+}
+
+img{
+    display: flex-inline;
+    margin-left: 30px;
+    width: 80px;
+    height: auto;
+}

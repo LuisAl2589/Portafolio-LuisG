@@ -1,0 +1,35 @@
+.profile{
+    width: 45vh;
+    height: 45vh;
+    border-style:solid;
+    border: none;
+    box-shadow:    0 0 10px rgba(200, 0, 0, 0.8),   /* Sombra roja interna */
+    0 0 20px rgba(200, 0, 0, 0.6),   /* Sombra roja media */
+    0 0 30px rgba(200, 0, 0, 0.4),   /* Sombra roja más externa */
+    0 0 40px rgba(200, 105, 180, 0.6), /* Sombra rosa */
+    0 0 50px rgba(200, 105, 180, 0.4);
+    border-radius: 50%;
+    position:block;
+    padding: 0px;
+
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+    .profile{
+        width: 35vh;
+        height: 35vh;
+        border-radius: 50%;
+        margin: 0 auto;
+        height: fit-content;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  background-color: #000000;
+  color: #edf2f4;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./assets/img/background5.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.60;
+  z-index: -2; /* Asegura que la imagen esté detrás del contenido */
+}
+a{
+  text-decoration: none;
+}
+
+/*
+#2b2d42  background
+#8d99ae  charts
+#edf2f4  text
+#ef233c  border
+#d90429  boton
+
+*/

@@ -1,0 +1,54 @@
+.proyecto{
+    background-color: #13141b9e;
+    padding: 1.5em;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 1.5em;
+    margin: 10px;
+}
+
+.proyecto ul{
+    display: inline-flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 20px; /* Espacio entre los iconos */
+    margin-top: 15px;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #272830; /* Fondo circular de color */
+    border: 1px solid #ef233c; /* Borde que contrasta */
+    color: #ef233c;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño del icono */
+}
+
+.icon-link:hover {
+    background-color: #ef233c; /* Color de fondo al pasar el ratón */
+    border-color: #ef233c; /* Borde al pasar el ratón */
+    color: aliceblue;
+}
+
+@media (max-width: 800px){
+    .proyecto{
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

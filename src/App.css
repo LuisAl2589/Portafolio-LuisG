@@ -1,0 +1,74 @@
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, min-content);
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+hr {
+    border: none;
+    border-radius: 10px;
+    height: 3px; /* Ajusta el grosor aquí */
+    background: linear-gradient(to right, #272830, #ef233c, #272830);
+  }
+
+.heroSection{   
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+    grid-column: 1/4;
+}
+
+.tecno{
+    margin: 0 auto;
+    width: 90%;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.sub-titulo{
+    font-size: 2rem;
+    color: #edf2f4;
+    margin: 1rem;
+    font-weight: 400;
+}
+
+.proyectos{
+    display: inline-flex;
+    flex-direction: column;
+    grid-column: 1/4;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.formacion{
+    display: inline-flex;
+    flex-direction: column;
+    grid-column: 1/4;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 800px){
+    .heroSection{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px;
+        margin-top: 0px;
+    }
+
+}

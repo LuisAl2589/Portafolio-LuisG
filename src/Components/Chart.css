@@ -1,0 +1,80 @@
+.formacion-chart{
+    background-color: #13141b9e;
+    padding: 0.7em;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 2em;
+    margin: 10px;
+    gap: 40px;
+}
+
+.icono{
+    width: 10%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #272830;
+    border: 1px solid #ef233c;
+    color: #ef233c;
+    text-decoration: none;
+}
+
+.detalles{
+    width: 75%;
+}
+
+.detalles h3{
+    font-size: 1.4rem;
+    color: #edf2f4;
+    margin: 0.5rem;
+    font-weight: 500;
+}
+.detalles h4{
+    font-size: 1.1rem;
+    color: #ef233c;
+    margin: 0.5rem;;
+    font-weight: 350;
+}
+.detalles h5{
+    font-size: 1rem;
+    color: #ef233c;
+    margin: 0.5rem;
+    margin-top: 1.2rem;
+    font-weight: 400;
+}
+.detalles p{
+    font-size: 0.9rem;
+    color: #aeadad;
+    margin: 0.5rem;
+    font-weight: 400;
+}
+
+.fecha{
+    width: 15%;
+    margin: 1em;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #cac9c9;
+    text-align: center;
+    padding: 1em;
+}
+
+@media (max-width: 800px){
+    .formacion-chart{
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .icono{
+        width: 40%;
+    }
+}
