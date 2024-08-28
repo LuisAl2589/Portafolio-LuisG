@@ -64,9 +64,9 @@ hr {
 @media (max-width: 800px){
     .heroSection{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px;
-        margin-top: 0px;
+        grid-template-rows: min-content min-content;
+        gap: 40px;
+        height: min-content;
     }
     .app{
         width: 100%;
