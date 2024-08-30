@@ -4,9 +4,7 @@ import './Tecnologias.css';
 const Tecnologias = () => {
     return (
         <div>
-            <h2>Tecnologías</h2>
-            <br />
-                <div className='tecnologias'>
+            <div className='tecnologias'>
                     <img src="https://img.icons8.com/color/96/000000/html-5--v1.png" alt="HTML" />
                     <img src="https://img.icons8.com/color/96/000000/css3.png" alt="CSS" />
                     <img src="https://img.icons8.com/color/96/000000/javascript--v1.png" alt="JS" />
