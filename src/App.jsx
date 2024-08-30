@@ -30,27 +30,31 @@ function App() {
         <h2 className='sub-titulo'>Proyectos</h2>
         <div className='proyectos'> 
         
-          <Proyecto
-            name='Dibujo con Epicilos'
-            image='https://via.placeholder.com/150'
-            description='Descripción del proyecto 1'
-            technologies={['Tecnología 1', 'Tecnología 2', 'Tecnología 3']}
-            deployLink='https://deploy-link.com'
-            githubLink='https://github-link.com'
-          />
-          <Proyecto
-            name='Carrito de compras E-SCOM'
-            image='https://via.placeholder.com/150'
-            description='Descripción del proyecto 2'
-            technologies={['Tecnología 1', 'Tecnología 2', 'Tecnología 3']}
-            deployLink='https://deploy-link.com'
-            githubLink='https://github-link.com'
-          />
-          <Proyecto
-            name='Pacman con React'
+        <Proyecto
+            name='Pacman Strawberry version 🍓'
             image={pacman}
-            description='Descripción del proyecto 3'
-            technologies={['Tecnología 1', 'Tecnología 2', 'Tecnología 3']}
+            description='Imitación del clásico juego Pacman con temática de fresas'
+            technologies={[['React','fa-brands fa-react'],
+                          ['JavaScript','fa-brands fa-js'], 
+                          ['CSS','fa-brands fa-css3-alt'],]}
+            deployLink='https://deploy-link.com'
+            githubLink='https://github-link.com'/>
+          <Proyecto
+            name='Pacman Strawberry version 🍓'
+            image={pacman}
+            description='Imitación del clásico juego Pacman con temática de fresas'
+            technologies={[['React','fa-brands fa-react'],
+                          ['JavaScript','fa-brands fa-js'], 
+                          ['CSS','fa-brands fa-css3-alt'],]}
+            deployLink='https://deploy-link.com'
+            githubLink='https://github-link.com'/>
+          <Proyecto
+            name='Pacman Strawberry version 🍓'
+            image={pacman}
+            description='Imitación del clásico juego Pacman con temática de fresas'
+            technologies={[['React','fa-brands fa-react'],
+                          ['JavaScript','fa-brands fa-js'], 
+                          ['CSS','fa-brands fa-css3-alt'],]}
             deployLink='https://deploy-link.com'
             githubLink='https://github-link.com'/>
             <hr />

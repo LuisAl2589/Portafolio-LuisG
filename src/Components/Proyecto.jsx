@@ -9,11 +9,13 @@ const Proyecto = ({ name, image, description, technologies, deployLink, githubLi
                 <h2>{name}</h2>
                 
                 <p>{description}</p>
-                <ul>
+                <div className='container-tecno'>
                     {technologies.map((technology, index) => (
-                        <li key={index}>{technology}</li>
+                        <div className='tecnologia' key={index}>
+                            <i className={technology[1]}></i>
+                            {technology[0]}</div>
                     ))}
-                </ul>
+                </div>
                 
                 <div className="icon-container">
                     <a href="https://www.example.com" className="icon-link" target="_blank">

@@ -50,6 +50,31 @@
     border-radius: 1em;
 }
 
+.container-tecno{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Espacio entre los iconos */
+    margin-top: 15px;
+}
+
+.tecnologia{
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #272830; /* Fondo circular de color */
+    border: 1px solid #ef233c; /* Borde que contrasta */
+    color: #ef233c;
+    text-decoration: none;
+    font-size: 15px;
+    gap: 8px;
+}
+
+.tecnologia i{
+    font-size: 20px;
+}
+
 @media (max-width: 800px){
     .proyecto{
         flex-direction: column;
@@ -58,4 +83,9 @@
         padding-right: 1em;
         
     }
+
+    .proyecto img{
+        width: 90%;
+    }
+
 }
