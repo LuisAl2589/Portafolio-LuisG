@@ -17,26 +17,26 @@ function App() {
         <Nav/>
       </div>
       <div className='app'>
-        <div className='heroSection'>
+        <div id='sobre-mi' className='heroSection'>
           <Profile/>
           <HeroSection/>
         </div>
-        <h2 className='sub-titulo'>Tecnologías</h2>
+        <h2 id='tecnologias' className='sub-titulo'>Tecnologías</h2>
         <div className='tecno'>
           <Tecnologias/>
           <br />
           <hr />
         </div>
-        <h2 className='sub-titulo'>Proyectos</h2>
+        <h2 id='proyectos' className='sub-titulo'>Proyectos</h2>
         <div className='proyectos'> 
-        
         <Proyecto
-            name='Pacman Strawberry version 🍓'
-            image={pacman}
-            description='Imitación del clásico juego Pacman con temática de fresas'
-            technologies={[['React','fa-brands fa-react'],
+            name='E-SCOM 🛒'
+            image='https://www.advisoryexcellence.com/wp-content/uploads/2022/01/ECOMMERCE-PHOTO.jpg'
+            description='E-commerce de la ESCOM con funcionalidades de compra, venta de productos, implementacion de carrito de compras, ademas de un apartado de administrador para pedidos productos y visualizar estadisticas de ventas'
+            technologies={[['.NET','fa-brands fa-react'],
                           ['JavaScript','fa-brands fa-js'], 
-                          ['CSS','fa-brands fa-css3-alt'],]}
+                          ['CSS','fa-brands fa-css3-alt'],
+                          ['MongoDB','fa-brands fa-css3-alt']]}
             deployLink='https://deploy-link.com'
             githubLink='https://github-link.com'/>
           <Proyecto
@@ -49,10 +49,10 @@ function App() {
             deployLink='https://deploy-link.com'
             githubLink='https://github-link.com'/>
           <Proyecto
-            name='Pacman Strawberry version 🍓'
-            image={pacman}
-            description='Imitación del clásico juego Pacman con temática de fresas'
-            technologies={[['React','fa-brands fa-react'],
+            name='Dibujo con epiciclos 🎨'
+            image='https://www.researchgate.net/profile/Juan-Ponce-Campuzano/publication/341775323/figure/fig3/AS:897826951274497@1591070034846/Figura-4-Letra-griega-p_Q320.jpg'
+            description='Implemetación de la transformada discreta de Fourier para dibujar figuras con epiciclos. Se muestra la animación de los epiciclos y el dibujo resultante'
+            technologies={[['HTML','fa-brands fa-html5'],
                           ['JavaScript','fa-brands fa-js'], 
                           ['CSS','fa-brands fa-css3-alt'],]}
             deployLink='https://deploy-link.com'
@@ -60,7 +60,7 @@ function App() {
             <hr />
         </div>
 
-        <h2 className='sub-titulo'>Formación</h2>
+        <h2 id='formacion' className='sub-titulo'>Formación</h2>
         <div className='formacion'>
           
           <Chart

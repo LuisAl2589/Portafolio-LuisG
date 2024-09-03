@@ -11,10 +11,11 @@ const Nav = () => {
                     <i className="check fa-solid fa-bars"></i>
                 </label>
                 <ul>
-                    <li><a href="">Sobre mi</a></li>
-                    <li><a href="">Proyectos</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
                 
             </nav>

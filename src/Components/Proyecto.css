@@ -1,13 +1,13 @@
 .proyecto{
     background-color: #13141b9e;
-    padding: 1.5em;
+    padding: 1em;
     display: inline-flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
     border-radius: 1.5em;
     margin: 10px;
 }
@@ -45,7 +45,7 @@
 }
 
 .proyecto img{
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 1em;
 }
@@ -73,6 +73,13 @@
 
 .tecnologia i{
     font-size: 20px;
+}
+
+.tecnologia img{
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+  
 }
 
 @media (max-width: 800px){

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Proyecto.css';
+import mongodb from '../assets/img/mongodb-icon.png';
+import c_sharp from '../assets/img/c-sharp-icon.png';
 
 const Proyecto = ({ name, image, description, technologies, deployLink, githubLink }) => {
     return (
@@ -10,11 +12,32 @@ const Proyecto = ({ name, image, description, technologies, deployLink, githubLi
                 
                 <p>{description}</p>
                 <div className='container-tecno'>
-                    {technologies.map((technology, index) => (
-                        <div className='tecnologia' key={index}>
-                            <i className={technology[1]}></i>
-                            {technology[0]}</div>
-                    ))}
+                {technologies.map((technology, index) => {
+                    switch (technology[0]) {
+                    case 'MongoDB':
+                        return (
+                            <div className='tecnologia' key={index}>
+                                <img width="48" height="48" src={mongodb} alt="mongodb"/>
+                                {technology[0]}
+                            </div>
+                                );
+                    case '.NET':
+                        return (
+                            <div className='tecnologia' key={index}>
+                                <img width="48" height="48" src={c_sharp} alt="c-sharp"/>
+                                {technology[0]}
+                            </div>
+                                );
+                    default:
+                        return (
+                            <div className='tecnologia' key={index}>
+                                <i className={technology[1]}></i>
+                                {technology[0]}
+                            </div>
+                                );
+                    }
+                
+                })}
                 </div>
                 
                 <div className="icon-container">

@@ -10,6 +10,7 @@ const Tecnologias = () => {
                     <img src="https://img.icons8.com/color/96/000000/javascript--v1.png" alt="JS" />
                     <img src="https://img.icons8.com/color/96/000000/react-native.png" alt="React" />
                     <img src="https://img.icons8.com/color/96/000000/mysql.png" alt="MySQL" />
+                    <img src="https://img.icons8.com/color/96/000000/mongodb.png" alt="MongoDB" />
                     <img src="https://img.icons8.com/color/96/000000/python.png" alt="Python" />
                     <img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png" alt="Java" />
                     <img src="https://img.icons8.com/color/96/000000/net-framework.png" alt="net-framework"/>
