@@ -46,8 +46,8 @@ function App() {
             technologies={[['React','fa-brands fa-react'],
                           ['JavaScript','fa-brands fa-js'], 
                           ['CSS','fa-brands fa-css3-alt'],]}
-            deployLink='https://deploy-link.com'
-            githubLink='https://github-link.com'/>
+            deployLink='https://pacman-strawberry.netlify.app'
+            githubLink='https://github.com/LuisAl2589/pacmanStrawberry'/>
           <Proyecto
             name='Dibujo con epiciclos 🎨'
             image='https://www.researchgate.net/profile/Juan-Ponce-Campuzano/publication/341775323/figure/fig3/AS:897826951274497@1591070034846/Figura-4-Letra-griega-p_Q320.jpg'

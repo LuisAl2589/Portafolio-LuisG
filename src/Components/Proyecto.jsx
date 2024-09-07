@@ -41,10 +41,10 @@ const Proyecto = ({ name, image, description, technologies, deployLink, githubLi
                 </div>
                 
                 <div className="icon-container">
-                    <a href="https://www.example.com" className="icon-link" target="_blank">
+                    <a href={deployLink} className="icon-link" target="_blank">
                         <i class="fas fa-link"></i>
                     </a>
-                    <a href="https://github.com" className="icon-link" target="_blank">
+                    <a href={githubLink} className="icon-link" target="_blank">
                         <i className="fab fa-github"></i>
                     </a>
                 </div>
