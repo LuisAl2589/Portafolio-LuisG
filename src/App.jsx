@@ -27,6 +27,30 @@ function App() {
           <br />
           <hr />
         </div>
+
+        <h2 id='formacion' className='sub-titulo'>Formación</h2>
+        <div className='formacion'>
+          
+          <Chart
+          icono='fa-solid fa-graduation-cap' 
+          escuela='ESCOM - Escuela Superior de Cómputo – IPN'
+          titulo='Ingeniería en Sistemas Computacionales'
+          cursos='Estructuras de Datos, Programación Orientada a Objetos, Bases de Datos, Redes de Computadoras,
+                  Desarrollo Web, Análisis y Diseño de Algoritmos, Arquitectura de Computadoras, Matemáticas Discretas, Probabilidad y
+                  Estadística'
+          lugar='Ciudad de México, México'
+          fecha='Agosto 2021 - Presente'/>
+
+          <Chart 
+          icono = 'fa-solid fa-book-open-reader'
+          escuela='CECyT 9 Juan de Dios Bátiz – IPN'
+          titulo='Carrera técnica en programación'
+          cursos='Introducción a la Programación, Desarrollo Web, Gestión de Bases de Datos, Fundamentos de Redes.'
+          lugar='Ciudad de México, México'
+          fecha='Agosto 2018 - Junio 2021'/>
+          <hr />
+        </div>
+
         <h2 id='proyectos' className='sub-titulo'>Proyectos</h2>
         <div className='proyectos'> 
         <Proyecto
@@ -57,31 +81,9 @@ function App() {
                           ['CSS','fa-brands fa-css3-alt'],]}
             deployLink='https://deploy-link.com'
             githubLink='https://github-link.com'/>
-            <hr />
         </div>
 
-        <h2 id='formacion' className='sub-titulo'>Formación</h2>
-        <div className='formacion'>
-          
-          <Chart
-          icono='fa-solid fa-graduation-cap' 
-          escuela='ESCOM - Escuela Superior de Cómputo – IPN'
-          titulo='Ingeniería en Sistemas Computacionales'
-          cursos='Estructuras de Datos, Programación Orientada a Objetos, Bases de Datos, Redes de Computadoras,
-                  Desarrollo Web, Análisis y Diseño de Algoritmos, Arquitectura de Computadoras, Matemáticas Discretas, Probabilidad y
-                  Estadística'
-          lugar='Ciudad de México, México'
-          fecha='Agosto 2021 - Presente'/>
-
-          <Chart 
-          icono = 'fa-solid fa-book-open-reader'
-          escuela='CECyT 9 Juan de Dios Bátiz – IPN'
-          titulo='Carrera técnica en programación'
-          cursos='Introducción a la Programación, Desarrollo Web, Gestión de Bases de Datos, Fundamentos de Redes.'
-          lugar='Ciudad de México, México'
-          fecha='Agosto 2018 - Junio 2021'/>
-
-        </div>
+        
       </div>
     </>
   )
