@@ -56,13 +56,13 @@ function App() {
         <Proyecto
             name='E-SCOM 🛒'
             image='https://www.advisoryexcellence.com/wp-content/uploads/2022/01/ECOMMERCE-PHOTO.jpg'
-            description='E-commerce de la ESCOM con funcionalidades de compra, venta de productos, implementacion de carrito de compras, ademas de un apartado de administrador para pedidos productos y visualizar estadisticas de ventas'
+            description='E-commerce de la ESCOM con funcionalidades de compra y venta de productos. Cuenta con un historial de compras y ventas, así como un sistema de calificaciones y comentarios.'
             technologies={[['.NET','fa-brands fa-react'],
                           ['JavaScript','fa-brands fa-js'], 
                           ['CSS','fa-brands fa-css3-alt'],
                           ['MongoDB','fa-brands fa-css3-alt']]}
-            deployLink='https://deploy-link.com'
-            githubLink='https://github-link.com'/>
+            deployLink='https://github.com/LuisAl2589/E-SCOM'
+            githubLink='https://github.com/LuisAl2589/E-SCOM'/>
           <Proyecto
             name='Pacman Strawberry version 🍓'
             image={pacman}
@@ -85,6 +85,17 @@ function App() {
 
         
       </div>
+
+      <footer id='contacto'>
+          <h4>
+            By Luis García
+          </h4>
+          
+          <div id='correo' href="">
+            <i className='fa-solid fa-envelope'></i>
+            <p>garcia.castaneda.luis.alfonso@gmail.com</p>
+          </div>
+      </footer>
     </>
   )
 }
